@@ -369,11 +369,11 @@ const PandiriRataPage = () => {
             mb: 1,
           }}
         >
-          Panigrahi's Wedding Celebrations
+          Manthina's Wedding Celebrations
         </Typography>
 
         <Typography color="text.secondary">
-          Designed with ❤️ by Panigrahi Kiran Babu for our beloved guests
+          Designed with ❤️ by Manthina Kiran Babu for our beloved guests
         </Typography>
       </Box>
     </Box>

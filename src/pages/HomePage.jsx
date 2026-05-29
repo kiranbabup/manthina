@@ -119,7 +119,7 @@ const HomePage = () => {
                 >
                     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: "row" }, alignItems: 'center', gap: { xs: "0px", md: "12px" } }}>
                         <Typography variant="h1" sx={{ fontSize: { xs: '2rem', md: '3.5rem' }, mb: 2, color: "#C41E3A" }}>
-                            Panigrahi's
+                            Manthina's
                         </Typography>
                         <Typography variant="h1" sx={{ fontSize: { xs: '2rem', md: '3.5rem' }, mb: 2, color: "#C41E3A" }}>
                             Wedding Invitation
@@ -386,7 +386,7 @@ const HomePage = () => {
             {/* Footer */}
             <Box sx={{ py: 6, textAlign: 'center', bgcolor: '#F5EBE1' }}>
                 <Typography variant="h6" className="wedding-font" sx={{ fontSize: '2rem', color: 'primary.main' }}>
-                    Designed with ❤️ by Panigrahi Kiran Babu
+                    Designed with ❤️ by Manthina Kiran Babu
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     © 2026 Wedding Celebration. All rights reserved.
