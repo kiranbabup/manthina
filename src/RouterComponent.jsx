@@ -15,17 +15,17 @@ import ViewWishesPage from './pages/ViewWishesPage'
 const RouterComponent = () => {
   return (
       <Routes>
-        <Route path="manthina/" element={<HomePage />} />
-        <Route path="/transportation" element={<Transportation />} />
-        <Route path="/members-vehical" element={<MemberVehicalAddingPage />} />
-        <Route path="/rata" element={<PandiriRataPage />} />
-        <Route path="/haldi" element={<HaldiFunctionPage />} />
-        <Route path="/wedding" element={<WeddingCeremonyPage />} />
-        <Route path="/reception" element={<ReceptionPage />} />
-        <Route path="/view-wishes" element={<ViewWishesPage />} />
+        <Route path="/manthina/" element={<HomePage />} />
+        <Route path="/manthina/transportation" element={<Transportation />} />
+        <Route path="/manthina/members-vehical" element={<MemberVehicalAddingPage />} />
+        <Route path="/manthina/rata" element={<PandiriRataPage />} />
+        <Route path="/manthina/haldi" element={<HaldiFunctionPage />} />
+        <Route path="/manthina/wedding" element={<WeddingCeremonyPage />} />
+        <Route path="/manthina/reception" element={<ReceptionPage />} />
+        <Route path="/manthina/view-wishes" element={<ViewWishesPage />} />
         
-        <Route path="/members-data" element={<MembersDataMyPage />} />
-        <Route path="/wm" element={<WishManagerPage />} />
+        <Route path="/manthina/members-data" element={<MembersDataMyPage />} />
+        <Route path="/manthina/wm" element={<WishManagerPage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
   )
