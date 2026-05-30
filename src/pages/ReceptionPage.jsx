@@ -268,7 +268,7 @@ const ReceptionPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/manthina/")}
+            onClick={() => navigate("/")}
             sx={{
               bgcolor: "white",
               color: "#6A1B9A",

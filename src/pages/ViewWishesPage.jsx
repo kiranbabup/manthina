@@ -93,7 +93,7 @@ const ViewWishesPage = () => {
           <Typography variant="h6" sx={{ color: '#ad1457', opacity: 0.8 }}>
             Beautiful messages from the loved ones.
           </Typography>
-          <Button onClick={() => navigate("/manthina/")}>Home</Button>
+          <Button onClick={() => navigate("/")}>Home</Button>
           <Divider sx={{ width: 100, mx: 'auto', mt: 3, height: 4, bgcolor: '#e91e63', borderRadius: 2 }} />
         </Box>
 

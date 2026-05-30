@@ -335,7 +335,7 @@ const PandiriRataPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/manthina/")}
+            onClick={() => navigate("/")}
             sx={{
               bgcolor: "white",
               color: "#C2185B",

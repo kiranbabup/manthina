@@ -250,7 +250,7 @@ const Transportation = () => {
                                 variant="contained"
                                 color="secondary"
                                 startIcon={<AddIcon />}
-                                onClick={() => navigate('/manthina/members-vehical')}
+                                onClick={() => navigate('/members-vehical')}
                             >
                                 Add Your Journey
                             </Button>
@@ -304,7 +304,7 @@ const Transportation = () => {
             <Fab
                 color="primary"
                 sx={{ position: 'fixed', bottom: 32, right: 32 }}
-                onClick={() => navigate('/manthina/')}
+                onClick={() => navigate('/')}
             >
                 <Typography variant="button" sx={{ fontWeight: 'bold' }}>Home</Typography>
             </Fab>

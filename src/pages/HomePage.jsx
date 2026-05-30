@@ -306,7 +306,7 @@ const HomePage = () => {
                         variant="contained"
                         color="secondary"
                         size="large"
-                        onClick={() => navigate('/manthina/transportation')}
+                        onClick={() => navigate('/transportation')}
                         sx={{ px: 6, py: 2, fontWeight: 'bold' }}
                     >
                         View Transportation Details & Book Seats
@@ -364,7 +364,7 @@ const HomePage = () => {
                                 <Button
                                     variant="outlined"
                                     color="primary"
-                                    onClick={() => navigate('/manthina/view-wishes')}
+                                    onClick={() => navigate('/view-wishes')}
                                     sx={{
                                         borderRadius: '20px',
                                         px: 4,

@@ -75,7 +75,7 @@ const MemberVehicalAddingPage = () => {
                 timestamp: new Date()
             });
             setSuccess(true);
-            setTimeout(() => navigate('/manthina/transportation'), 2000);
+            setTimeout(() => navigate('/transportation'), 2000);
         } catch (err) {
             console.error("Error adding document: ", err);
             setError('Failed to save details. Please try again.');
@@ -89,7 +89,7 @@ const MemberVehicalAddingPage = () => {
             <Container maxWidth="sm" >
                 <Button
                     startIcon={<ArrowBackIcon />}
-                    onClick={() => navigate('/manthina/transportation')}
+                    onClick={() => navigate('/transportation')}
                     sx={{ mb: 4 }}
                 >
                     Back to Transportation
