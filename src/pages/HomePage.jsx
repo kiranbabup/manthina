@@ -28,20 +28,21 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import GalleryComponent from '../components/GalleryComponent';
 
 // Assets
-import weddingCover from '../assets/wedding_card_cover_pic_jpg.png';
-import landingPage from '../assets/landing_card.png';
-import englishCard from '../assets/english_inner_card.png';
-import teluguCard from '../assets/telugu_inner_card.png';
+import englishCard from '../assets/eng_hari.jpg';
+import teluguCard from '../assets/tel_hari.jpg';
+import cardpic1 from '../assets/card_pic.jpg';
+import cardpic2 from '../assets/cover_pic.jpg';
+
 import { eventsData } from '../assets/content';
 
 const REVEAL_DATE = new Date('2026-05-13T07:10:00');
-const WEDDING_DATE = new Date('2026-06-22T13:35:00');
+const WEDDING_DATE = new Date('2026-06-22T02:35:00');
 
 const galleryImages = [
-    { img: weddingCover, title: "Wedding Card Cover" },
-    { img: landingPage, title: "Wedding Card" },
     { img: englishCard, title: "English Invitation" },
-    { img: teluguCard, title: "Telugu Invitation" }
+    { img: teluguCard, title: "Telugu Invitation" },
+    { img: cardpic2, title: "Card Photo 1" },
+    { img: cardpic1, title: "Card Photo 2" },
 ];
 
 const HomePage = () => {
@@ -127,24 +128,24 @@ const HomePage = () => {
                     </Box>
                     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: "row" }, alignItems: 'center', justifyContent: "center", gap: { xs: "0px", md: "12px" } }}>
                         <Typography variant="h5" className="wedding-font" sx={{ color: 'secondary.main', mb: 1, fontSize: { xs: "1.6rem", md: '2.2rem' } }}>
-                            Kiran Babu
+                            Haranath
                         </Typography>
                         <Typography variant="h5" className="wedding-font" sx={{ color: 'secondary.main', mb: 1, fontSize: { xs: "1.6rem", md: '2.2rem' } }}>
                             &
                         </Typography>
                         <Typography variant="h5" className="wedding-font" sx={{ color: 'secondary.main', mb: 1, fontSize: { xs: "1.6rem", md: '2.2rem' } }}>
-                            Bindusri
+                            Vasavi
                         </Typography>
                     </Box>
 
                     <Typography variant="h6" sx={{ letterSpacing: 3, textTransform: 'uppercase', color: 'text.secondary', mb: 4, display: { xs: 'none', md: "block" } }}>
-                        Save The Date - June 22, 2026
+                        Save The Date - June 22, 2026 - 2:35 AM 
                     </Typography>
                     <Typography variant="h6" sx={{ letterSpacing: 3, textTransform: 'uppercase', color: 'text.secondary', display: { xs: 'block', md: "none" } }}>
                         Save The Date
                     </Typography>
                     <Typography variant="h6" sx={{ letterSpacing: 3, textTransform: 'uppercase', color: 'text.secondary', mb: 2, display: { xs: 'block', md: "none" } }}>
-                        June 22, 2026
+                        June 22, 2026 - 2:35 AM
                     </Typography>
                 </motion.div>
 
@@ -296,16 +297,16 @@ const HomePage = () => {
                     <Grid container spacing={2} sx={{ mb: 4, width: "100%", display: "flex", justifyContent: "center" }}>
                         <Grid item xs={12} sm={6}>
                             <Typography variant="h5">Bus Schedule</Typography>
-                            <Typography variant="body1">Departure: June 22, 2026</Typography>
-                            <Typography variant="body1">Time: 4:00 AM - 5:00 AM</Typography>
-                            <Typography variant="body1">From: Kiran's Home, Gopalapatnam</Typography>
+                            <Typography variant="body1">Departure: June 21, 2026</Typography>
+                            <Typography variant="body1">Time: 10:00 AM - 11:00 AM</Typography>
+                            <Typography variant="body1">From: Haranath's Home, Pendurthi</Typography>
                         </Grid>
                     </Grid>
                     <Button
                         variant="contained"
                         color="secondary"
                         size="large"
-                        onClick={() => navigate('/transportation')}
+                        onClick={() => navigate('/manthina/transportation')}
                         sx={{ px: 6, py: 2, fontWeight: 'bold' }}
                     >
                         View Transportation Details & Book Seats
@@ -317,7 +318,7 @@ const HomePage = () => {
 
                 {/* Display best 3 wishes and a view more option */}
                 {
-                    bestWishes.length >= 2 && (
+                    bestWishes.length >= 1 && (
                         <Box sx={{ mt: 10, textAlign: 'center' }}>
                             <Typography variant="h3" gutterBottom sx={{
                                 color: '#DC143C',
@@ -363,7 +364,7 @@ const HomePage = () => {
                                 <Button
                                     variant="outlined"
                                     color="primary"
-                                    onClick={() => navigate('/view-wishes')}
+                                    onClick={() => navigate('/manthina/view-wishes')}
                                     sx={{
                                         borderRadius: '20px',
                                         px: 4,
@@ -386,7 +387,7 @@ const HomePage = () => {
             {/* Footer */}
             <Box sx={{ py: 6, textAlign: 'center', bgcolor: '#F5EBE1' }}>
                 <Typography variant="h6" className="wedding-font" sx={{ fontSize: '2rem', color: 'primary.main' }}>
-                    Designed with ❤️ by Manthina Kiran Babu
+                    Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     © 2026 Wedding Celebration. All rights reserved.

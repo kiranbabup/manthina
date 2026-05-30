@@ -93,7 +93,7 @@ const ViewWishesPage = () => {
           <Typography variant="h6" sx={{ color: '#ad1457', opacity: 0.8 }}>
             Beautiful messages from the loved ones.
           </Typography>
-          <Button onClick={() => navigate("/")}>Home</Button>
+          <Button onClick={() => navigate("/manthina/")}>Home</Button>
           <Divider sx={{ width: 100, mx: 'auto', mt: 3, height: 4, bgcolor: '#e91e63', borderRadius: 2 }} />
         </Box>
 
@@ -195,7 +195,7 @@ const ViewWishesPage = () => {
           </Typography>
 
           <Typography color="text.secondary">
-            Designed with ❤️ by Manthina Kiran Babu for our beloved guests
+            Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
           </Typography>
         </Box>
       </Container>

@@ -23,22 +23,22 @@ import RestaurantIcon from "@mui/icons-material/Restaurant";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import { useNavigate } from "react-router-dom";
-import GalleryComponent from "../components/GalleryComponent";
-
-import kiranHaldip1 from "../assets/haldi_p1.jpg";
-import binduHaldib1 from "../assets/haldi_b1.png";
 import { eventsData } from "../assets/content";
 
-const galleryImages = [
-  {
-    img: kiranHaldip1,
-    title: "Kiran's Haldi Poster-1",
-  },
-  {
-    img: binduHaldib1,
-    title: "Bindu's Haldi Poster-1",
-  }
-];
+// import GalleryComponent from "../components/GalleryComponent";
+// import haranathHaldip1 from "../assets/haldi_p1.jpg";
+// import vasaviHaldib1 from "../assets/haldi_b1.png";
+
+// const galleryImages = [
+//   {
+//     img: haranathHaldip1,
+//     title: "haranath's Haldi Poster-1",
+//   },
+//   {
+//     img: vasaviHaldib1,
+//     title: "Vasavi's Haldi Poster-1",
+//   }
+// ];
 
 const HaldiFunctionPage = () => {
   const navigate = useNavigate();
@@ -101,7 +101,7 @@ const HaldiFunctionPage = () => {
             }}
           >
             A joyful celebration filled with turmeric, laughter, blessings,
-            music and unforgettable memories for Kiran's Marraige.
+            music and unforgettable memories for Haranath's Marraige.
           </Typography>
 
           <Chip
@@ -159,7 +159,7 @@ const HaldiFunctionPage = () => {
                         })}
                       </Typography>
                       <Typography color="text.secondary">
-                        7:00 AM - 6:00 PM
+                        2:00 PM - 10:00 PM
                       </Typography>
                     </Box>
                   </Box>
@@ -190,7 +190,7 @@ const HaldiFunctionPage = () => {
                 {
                   icon: <RestaurantIcon />,
                   title: "Food Arrangements",
-                  desc: "Delicious Breakfast, Lunch and Dinner will be served for the guests.",
+                  desc: "Delicious Lunch and Dinner will be served for the guests.",
                 },
                 {
                   icon: <MusicNoteIcon />,
@@ -234,10 +234,10 @@ const HaldiFunctionPage = () => {
           </Grid>
         </Grid>
 
-        <GalleryComponent
+        {/* <GalleryComponent
           galleryTitle="Haldi Posters"
           galleryImages={galleryImages}
-        />
+        /> */}
 
         {/* BOTTOM CTA */}
         <Box
@@ -284,7 +284,7 @@ const HaldiFunctionPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/manthina/")}
             sx={{
               bgcolor: "white",
               color: "#C2185B",
@@ -322,7 +322,7 @@ const HaldiFunctionPage = () => {
         </Typography>
 
         <Typography color="text.secondary">
-          Designed with ❤️ by Manthina Kiran Babu for our beloved guests
+          Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
         </Typography>
       </Box>
     </Box>

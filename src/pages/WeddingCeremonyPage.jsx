@@ -22,22 +22,22 @@ import TempleHinduIcon from "@mui/icons-material/TempleHindu";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import WcIcon from "@mui/icons-material/Wc";
-import GalleryComponent from "../components/GalleryComponent";
-
-import kiranWeddingp1 from "../assets/wedding_p1.jpg";
-import binduWeddingb1 from "../assets/wedding_b1.png";
 import { eventsData } from "../assets/content";
 
-const galleryImages = [
-  {
-    img: kiranWeddingp1,
-    title: "Kiran's Wedding Poster-1",
-  },
-  {
-    img: binduWeddingb1,
-    title: "Bindu's Wedding Poster-1",
-  }
-];
+// import GalleryComponent from "../components/GalleryComponent";
+// import haranathWeddingp1 from "../assets/wedding_p1.jpg";
+// import vasaviWeddingb1 from "../assets/wedding_b1.png";
+
+// const galleryImages = [
+//   {
+//     img: haranathWeddingp1,
+//     title: "Haranath's Wedding Poster-1",
+//   },
+//   {
+//     img: vasaviWeddingb1,
+//     title: "Vasavi's Wedding Poster-1",
+//   }
+// ];
 
 const WeddingCeremonyPage = () => {
   const navigate = useNavigate();
@@ -148,7 +148,7 @@ const WeddingCeremonyPage = () => {
                       <Typography variant="h6">Wedding Ceremony</Typography>
 
                       <Typography color="text.secondary">
-                        Kiran Babu Weds Bindusri
+                        Haranath Weds Vasavi
                       </Typography>
                     </Box>
                   </Box>
@@ -159,10 +159,12 @@ const WeddingCeremonyPage = () => {
                       <Typography variant="h6">Muhurtham</Typography>
 
                       <Typography color="text.secondary">
-                        June 22, 2026
+                        Monday, June 22, 2026
                       </Typography>
 
-                      <Typography color="text.secondary">1:35 PM</Typography>
+                      <Typography color="text.secondary">
+                        Early Hours of Morning 2:35 AM
+                      </Typography>
                     </Box>
                   </Box>
 
@@ -180,10 +182,17 @@ const WeddingCeremonyPage = () => {
                   <Box sx={{ display: "flex", gap: 2 }}>
                     <RestaurantIcon sx={{ color: "#C2185B", mt: 0.7 }} />
                     <Box>
-                      <Typography variant="h6">Lunch</Typography>
+                      <Typography variant="h6">Dinner</Typography>
+                      <Typography color="text.secondary">
+                        Sunday, June 21, 2026
+                      </Typography>
 
                       <Typography color="text.secondary">
-                        Traditional wedding lunch will be served for all guests.
+                        7:00 PM Onwards
+                      </Typography>
+                      <Typography color="text.secondary">
+                        Traditional wedding dinner will be served for all
+                        guests.
                       </Typography>
                     </Box>
                   </Box>
@@ -248,10 +257,10 @@ const WeddingCeremonyPage = () => {
           </Grid>
         </Grid>
 
-        <GalleryComponent
+        {/* <GalleryComponent
           galleryTitle="Wedding Posters"
           galleryImages={galleryImages}
-        />
+        /> */}
 
         {/* BOTTOM CTA */}
         <Box
@@ -298,7 +307,7 @@ const WeddingCeremonyPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/manthina/")}
             sx={{
               bgcolor: "white",
               color: "#C2185B",
@@ -336,7 +345,7 @@ const WeddingCeremonyPage = () => {
         </Typography>
 
         <Typography color="text.secondary">
-          Designed with ❤️ by Manthina Kiran Babu for our beloved guests
+          Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
         </Typography>
       </Box>
     </Box>

@@ -94,7 +94,7 @@ const PandiriRataPage = () => {
               },
             }}
           >
-            Celebrating the Groom Kiran's Traditional Ceremony
+            Celebrating the Groom Haranath's Traditional Ceremony
           </Typography>
 
           <Chip
@@ -216,7 +216,7 @@ const PandiriRataPage = () => {
                     }}
                   >
                     Join us as we celebrate the joyful occasion of{" "}
-                    <strong>Pandiri Rata</strong>, a cherished traditional
+                    <strong>Pandiri Rata</strong> along with ongoing event of <strong>Uppanayanam</strong>, a cherished traditional
                     ceremony filled with blessings, happiness, laughter and
                     togetherness before the wedding festivities begin.
                   </Typography>
@@ -237,7 +237,7 @@ const PandiriRataPage = () => {
                 {
                   icon: <RestaurantIcon />,
                   title: "Delicious Food",
-                  desc: "Breakfast will be served for all the guests.",
+                  desc: "Breakfast & Lunch will be served for all the guests.",
                 },
               ].map((item, index) => (
                 <motion.div
@@ -335,7 +335,7 @@ const PandiriRataPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/manthina/")}
             sx={{
               bgcolor: "white",
               color: "#C2185B",
@@ -373,7 +373,7 @@ const PandiriRataPage = () => {
         </Typography>
 
         <Typography color="text.secondary">
-          Designed with ❤️ by Manthina Kiran Babu for our beloved guests
+          Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
         </Typography>
       </Box>
     </Box>

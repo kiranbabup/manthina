@@ -114,7 +114,7 @@ const Transportation = () => {
         );
 
         // Rows 1-8: 2 + 2
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 10; i++) {
             const start = 4 + (i * 4);
             rows.push(
                 <Box key={`row${i + 1}`} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -130,11 +130,11 @@ const Transportation = () => {
         // Last Row: 5 seats
         rows.push(
             <Box key="last-row" sx={{ display: 'flex', justifyContent: 'center', mt: 1 }}>
-                {renderSeat(36)}
-                {renderSeat(37)}
-                {renderSeat(38)}
-                {renderSeat(39)}
-                {renderSeat(40)}
+                {renderSeat(44)}
+                {renderSeat(45)}
+                {renderSeat(46)}
+                {renderSeat(47)}
+                {renderSeat(48)}
             </Box>
         );
 
@@ -155,7 +155,7 @@ const Transportation = () => {
                 <Box sx={{ textAlign: 'center', mb: 2 }}>
                     <Typography variant="h3" gutterBottom>Transportation</Typography>
                     <Typography variant="body1" color="text.secondary">
-                        Check your bus seat or view guest travel details who are travelling to Kiran's Wedding.
+                        Check your bus seat or view guest travel details who are travelling to Haranath's Wedding.
                     </Typography>
                 </Box>
 
@@ -250,7 +250,7 @@ const Transportation = () => {
                                 variant="contained"
                                 color="secondary"
                                 startIcon={<AddIcon />}
-                                onClick={() => navigate('/members-vehical')}
+                                onClick={() => navigate('/manthina/members-vehical')}
                             >
                                 Add Your Journey
                             </Button>
@@ -304,7 +304,7 @@ const Transportation = () => {
             <Fab
                 color="primary"
                 sx={{ position: 'fixed', bottom: 32, right: 32 }}
-                onClick={() => navigate('/')}
+                onClick={() => navigate('/manthina/')}
             >
                 <Typography variant="button" sx={{ fontWeight: 'bold' }}>Home</Typography>
             </Fab>

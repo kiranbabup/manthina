@@ -70,7 +70,7 @@ const ReceptionPage = () => {
               },
             }}
           >
-            Reception Night
+            Reception Noon
           </Typography>
 
           <Typography
@@ -81,7 +81,7 @@ const ReceptionPage = () => {
               mx: "auto",
             }}
           >
-            An elegant evening of celebration, togetherness, happiness and
+            An elegant Afternoon of celebration, togetherness, happiness and
             blessings.
           </Typography>
 
@@ -129,11 +129,11 @@ const ReceptionPage = () => {
                       <Typography variant="h6">Time</Typography>
 
                       <Typography color="text.secondary">
-                        June 25, 2026
+                        June 23, 2026
                       </Typography>
 
                       <Typography color="text.secondary">
-                        7:00 PM - 11:00 PM
+                        10:00 AM - 3:00 PM
                       </Typography>
                     </Box>
                   </Box>
@@ -154,10 +154,10 @@ const ReceptionPage = () => {
                     <DinnerDiningIcon sx={{ color: "#6A1B9A", mt: 0.7 }} />
 
                     <Box>
-                      <Typography variant="h6">Dinner</Typography>
+                      <Typography variant="h6">Lunch</Typography>
 
                       <Typography color="text.secondary">
-                        Traditional & Grand dinner arrangements will be provided
+                        Traditional & Grand lunch arrangements will be provided
                         for all guests.
                       </Typography>
                     </Box>
@@ -214,8 +214,8 @@ const ReceptionPage = () => {
                     lineHeight: 2,
                   }}
                 >
-                  Join us for a memorable evening filled with joy, laughter,
-                  dinner and beautiful moments as we celebrate our new
+                  Join us for a memorable noon filled with joy, laughter,
+                  lunch and beautiful moments as we celebrate our new
                   beginning.
                 </Typography>
               </CardContent>
@@ -268,7 +268,7 @@ const ReceptionPage = () => {
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/manthina/")}
             sx={{
               bgcolor: "white",
               color: "#6A1B9A",
@@ -306,7 +306,7 @@ const ReceptionPage = () => {
         </Typography>
 
         <Typography color="text.secondary">
-          Designed with ❤️ by Manthina Kiran Babu for our beloved guests
+          Designed by Panigrahi Kiran Babu for Haranath's beloved guests.
         </Typography>
       </Box>
     </Box>
