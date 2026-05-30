@@ -19,7 +19,7 @@ const RouterComponent = () => {
         <Route path="/manthina/transportation" element={<Transportation />} />
         <Route path="/manthina/members-vehical" element={<MemberVehicalAddingPage />} />
         <Route path="/manthina/view-wishes" element={<ViewWishesPage />} />
-        
+
         <Route path="/manthina/rata" element={<PandiriRataPage />} />
         <Route path="/manthina/haldi" element={<HaldiFunctionPage />} />
         <Route path="/manthina/wedding" element={<WeddingCeremonyPage />} />
