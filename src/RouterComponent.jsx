@@ -21,7 +21,7 @@ const RouterComponent = () => {
         <Route path="/members-vehical" element={<MemberVehicalAddingPage />} />
         <Route path="/view-wishes" element={<ViewWishesPage />} />
 
-        <Route path="/manthina/#/rata" element={<PandiriRataPage />} />
+        <Route path="/rata" element={<PandiriRataPage />} />
         <Route path="/haldi" element={<HaldiFunctionPage />} />
         <Route path="/wedding" element={<WeddingCeremonyPage />} />
         <Route path="/reception" element={<ReceptionPage />} />
