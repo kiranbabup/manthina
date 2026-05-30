@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import { Button, Typography, Container, Box } from "@mui/material";
+import page404img from "../assets/404.png";
 
 const ContentStyle = styled("div")(({ theme }) => ({
   maxWidth: 480,
@@ -32,7 +33,7 @@ export default function PageNotFound() {
 
           <Box
             component="img"
-            src="/static/images/404.png"
+            src={page404img}
             sx={{ height: 300, mx: "auto", my: 1 }}
           />
 

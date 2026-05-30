@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Paper, useTheme } from '@mui/material';
 
 const CountdownTimer = ({ targetDate, title }) => {
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
     const theme = useTheme();
 
-    function calculateTimeLeft() {
-        const difference = +new Date(targetDate) - +new Date();
+    const calculateTimeLeft = () => {
+        const difference = +new Date(targetDate) - Date.now();
         let timeLeft = {};
 
         if (difference > 0) {
@@ -19,15 +18,17 @@ const CountdownTimer = ({ targetDate, title }) => {
         }
 
         return timeLeft;
-    }
+    };
+
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
     useEffect(() => {
-        const timer = setTimeout(() => {
+        const timer = setInterval(() => {
             setTimeLeft(calculateTimeLeft());
         }, 1000);
 
-        return () => clearTimeout(timer);
-    });
+        return () => clearInterval(timer);
+    }, [targetDate]);
 
     const timerComponents = [];
 
