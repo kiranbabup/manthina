@@ -31,7 +31,7 @@ export const eventsData = [
         mapLink: "https://maps.app.goo.gl/ev3X7WHECUEDf2Tu8",
         alwaysVisible: false,
         // page: "/",
-        page: "/manthina/#/wedding",
+        page: "/wedding",
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ export const eventsData = [
         mapLink: "https://maps.app.goo.gl/y7mqKozMDKcWBnmMA",
         alwaysVisible: false,
         // page: "/",
-        page: "/manthina/#/reception",
+        page: "/reception",
     }
 ];
 

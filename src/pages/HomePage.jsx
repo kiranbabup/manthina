@@ -249,7 +249,7 @@ const HomePage = () => {
                                             <Button
                                                 variant="outlined"
                                                 size="small"
-                                                href={event.page}
+                                                onClick={() => navigate(event.page)}
                                                 disabled={event.page === "/"}
                                                 sx={{ mb: 1 }}
                                             >
