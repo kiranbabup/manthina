@@ -8,7 +8,7 @@ export const eventsData = [
         address: "Home, Ayyappa nagar colony, Pendurthi, Visakhapatnam",
         mapLink: "https://maps.app.goo.gl/QxGxbSj3K6bX7M3s5?g_st=ac",
         alwaysVisible: true,
-        page: "/manthina/#/rata",
+        page: "/rata",
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const eventsData = [
         address: "Home, Ayyappa nagar colony, Pendurthi, Visakhapatnam",
         mapLink: "https://maps.app.goo.gl/QxGxbSj3K6bX7M3s5?g_st=ac",
         alwaysVisible: false,
-        page: "/manthina/#/haldi",
+        page: "/haldi",
     },
     {
         id: 3,

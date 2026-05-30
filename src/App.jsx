@@ -2,6 +2,7 @@ import './App.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import RouterComponent from './RouterComponent'
+import ScrollToTop from './components/ScrollToTop'
 
 const theme = createTheme({
   palette: {
@@ -76,6 +77,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <ScrollToTop />
       <RouterComponent />
     </ThemeProvider>
   )
