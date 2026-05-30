@@ -15,7 +15,9 @@ import ViewWishesPage from './pages/ViewWishesPage'
 const RouterComponent = () => {
   return (
       <Routes>
-        {/* <Route path="/manthina/" element={<HomePage />} /> */}
+        <Route path="/manthina/" element={<HomePage />} />
+        <Route path="/manthina/#/" element={<HomePage />} />
+        <Route path="/#/" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/transportation" element={<Transportation />} />
         <Route path="/members-vehical" element={<MemberVehicalAddingPage />} />
